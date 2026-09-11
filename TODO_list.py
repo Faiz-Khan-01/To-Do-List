@@ -12,17 +12,17 @@ def list_features(): # Will list out all the features
 6 : Exit\n''')
 
 def add_task() : # Adds a New task 
-    new = input("Add a New Task.\t")
+    new = input("Add a New Task.\n")
     Items.append(new.capitalize())
     print("New Task Added!\n")
     
 def complete_task() : # Completes a task
-    complete = input("Enter the Task Name.\t")
+    complete = input("Enter the Task Name.\n")
     Items.remove(complete.capitalize())
     print("Task Completed Successfully!\n")
 
 def remove_task() : # Removes a task
-    delete = input("Enter the Task Name.\t")
+    delete = input("Enter the Task Name.\n")
     Items.remove(delete.capitalize())
     print("Task Removed.\n")
 
@@ -30,8 +30,9 @@ def list_tasks() : # Lists all the tasks
     if len(Items) == 0 :
         print("The Task List is Empty.\n")
     else :
+        print("Tasks List:")
         for i in Items :
-            print(i)
+            print("-",i)
         print()
 
 def clear_tasks() : # Clear all the tasks
