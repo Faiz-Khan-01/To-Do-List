@@ -1,4 +1,4 @@
-# To-Do List App
+# To-Do List App V2
 
 A simple to-do list app built in python
 
@@ -6,6 +6,11 @@ A simple to-do list app built in python
 - Simple and Easy to use
 - Clear all tasks at once
 - CLI based
+- List Completed Tasks
+
+## What's New ?
+- Completed Tasks are added to a seperated List.
+- User can now see the list of completed tasks.
 
 ## Preview
 <img alt="image" src="https://github.com/user-attachments/assets/5b638b02-39bf-4ccc-bf56-3bcf4f2dfa59" />
