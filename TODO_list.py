@@ -26,7 +26,6 @@ def complete_task() : # Completes a task
 
 def remove_task() : # Removes a task
     delete = input("Enter the Task Name.\n")
-    complete_task.append(complete)
     tasks.remove(delete.capitalize())
     print("Task Removed.\n")
 
