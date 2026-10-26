@@ -13,4 +13,4 @@ A simple to-do list app built in python
 - User can now see the list of completed tasks.
 
 ## Preview
-<img alt="image" src="https://github.com/user-attachments/assets/5b638b02-39bf-4ccc-bf56-3bcf4f2dfa59" />
+<img alt="image" src="screenshot_20261026_174149.png" />
